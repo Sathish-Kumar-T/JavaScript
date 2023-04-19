@@ -1,0 +1,15 @@
+#button{
+/* padding-right: 0%; */
+}
+
+#array{
+    height: 30px;
+    width: 100px;
+ border:2px solid blueviolet; 
+ border-radius: 1em;
+ top: 50%;
+ left: 50%;
+/* transform: translate(); */
+position: absolute;
+
+}
