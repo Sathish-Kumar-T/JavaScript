@@ -1,0 +1,73 @@
+ body{
+    background: rgb(80,29,98);
+background: linear-gradient(180deg, rgba(80,29,98,1) 0%, rgba(201,16,241,1) 51%, rgba(169,28,200,1) 63%, rgba(72,65,74,1) 100%);
+background-attachment: fixed;
+margin:0;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: px; font-style: normal; font-variant: font-weight ; line-height: px; 
+}
+#form{
+    width:300px;
+    /* height: 300px; */
+    /* top: 50%;
+    left: 50%;
+    position: absolute;
+    transform:translate(-50%,-50%) ; */
+    padding: 30px;
+    background-color: #f5b452;
+    border-radius: 1em;
+    margin: 20vh auto 0 auto;
+}
+h1{
+    text-align: center;
+    
+}
+/* #form{
+    width:400px;
+    margin:20vh auto 0 auto;
+    background-color:#f5b452;
+    border-radius: 5px;
+    padding:30px;
+
+} */
+ #form button{ 
+   
+    border-radius:5px;
+    padding : 10px;
+    font-size:15px;
+    width: 100%;
+    top: 20px;
+    cursor:pointer;
+    border: 2px #f5b452;
+}
+
+.input-details{
+display: flex;
+flex-direction: column;
+margin-bottom: 15px;
+}
+.input-details input{
+    margin-top: 5px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px /*solid black*/;
+    
+}
+.input-details input:focus{
+    outline: 0;
+}
+
+.input-details .error{
+    color: red;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.input-details .success input{
+    border-color: lightgreen;
+}
+
+
+.input-details .error input{
+    border-color: red;
+} 
